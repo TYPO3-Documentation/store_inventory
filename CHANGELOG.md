@@ -1,3 +1,10 @@
+# 10.4.0
+
+## TASK
+
+- [TASK] Fix deprecations for 10.4 07d2bb3
+- [TASK] First Version for 10.4 b902963
+
 # 9.5.0
 
 ## TASK
