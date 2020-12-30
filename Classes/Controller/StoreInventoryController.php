@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendor\StoreInventory\Controller;
+namespace T3docs\StoreInventory\Controller;
 
 use T3docs\StoreInventory\Domain\Repository\ProductRepository;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
