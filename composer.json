@@ -7,7 +7,7 @@
     ],
     "authors": [
         {
-            "name": "Documentation Team",
+            "name": "TYPO3 Documentation Team",
             "role": "Developer"
         }
     ],
@@ -23,8 +23,8 @@
         "typo3-ter/store_inventory": "self.version"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "11.0.x-dev"
+        "typo3/cms": {
+            "extension-key": "store_inventory"
         }
     }
 }
