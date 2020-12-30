@@ -4,6 +4,7 @@ namespace T3docs\StoreInventory\Controller;
 
 use T3docs\StoreInventory\Domain\Repository\ProductRepository;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
+use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class StoreInventoryController
@@ -31,11 +32,12 @@ class StoreInventoryController extends ActionController
     /**
      * List Action
      *
-     * @return void
+     * @return ResponseInterface
      */
-    public function listAction()
+    public function listAction(): ResponseInterface
     {
         $products = $this->productRepository->findAll();
         $this->view->assign('products', $products);
+        return $this->htmlResponse();
     }
 }
