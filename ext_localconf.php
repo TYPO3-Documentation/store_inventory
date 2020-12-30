@@ -4,14 +4,14 @@ defined('TYPO3_MODE') || die('Access denied.');
 call_user_func(
     function () {
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-            'T3docs.StoreInventory',
+            'StoreInventory',
             'Pi1',
             [
-                'StoreInventory' => 'list',
+                \T3docs\StoreInventory\Controller\StoreInventoryController::class => 'list',
             ],
             // non-cacheable actions
             [
-                'StoreInventory' => '',
+                \T3docs\StoreInventory\Controller\StoreInventoryController::class => '',
             ]
         );
     }
