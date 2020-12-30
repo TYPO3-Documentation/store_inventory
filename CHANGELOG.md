@@ -1,3 +1,13 @@
+# 11.0.0
+
+## TASK
+
+- [TASK] Fix deprecations for 10.4 ced50ee
+
+## MISC
+
+- Return response interface from the controller 5ba551b
+
 # 10.4.0
 
 ## TASK
