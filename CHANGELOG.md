@@ -1,5 +1,11 @@
 # 9.5.0
 
+## BUGFIX
+
+- [BUGFIX] Fix version requirement 458717a
+
+# 9.5.0
+
 ## TASK
 
 - [TASK] Fix Vendor Prefix 0cf629f
