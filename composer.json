@@ -20,7 +20,7 @@
     "typo3/cms-core": "^9.5.23"
   },
   "replace": {
-    "typo3-ter/examples": "self.version"
+    "typo3-ter/store_inventory": "self.version"
   },
   "extra": {
     "branch-alias": {
