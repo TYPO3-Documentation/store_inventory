@@ -2,11 +2,11 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Store Inventory',
-    'description' => 'An extension to manage a stock.',
+    'description' => 'This TYPO3 extension is an example in the Extbase Fluid Book. See external documentation',
     'category' => 'plugin',
-    'author' => 'John Doe',
-    'author_company' => 'John Doe Inc.',
-    'author_email' => 'john.doe@example.com',
+    'author' => 'TYPO3 Documentation Team',
+    'author_company' => 'TYPO3',
+    'author_email' => 'documentation@typo3.org',
     'state' => 'alpha',
     'clearCacheOnLoad' => true,
     'version' => '9.5.1',
